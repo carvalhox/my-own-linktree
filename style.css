@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: var(--textColor);
+    font-family: 'Oxygen', sans-serif;
+    text-decoration: none;
+}
+
+:root {
+    --background: #242424;
+    --textColor: #ededed;
+    --links: #333;
+}
+
+html {
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 60vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    box-shadow: 5px 10px 8px 10px #333;
+}
+
+.profile-info {
+    text-align: center; 
+    margin-top: 2rem;
+}
+
+.profile-picture {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    margin-bottom: 1rem;
+}
+
+.hr1 {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.hr2 {
+    width: 125px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 1.75rem;
+    margin-bottom: 0.6rem;
+}
+
+h4 {
+    margin-bottom: 0.3rem;
+}
+
+.container-cards {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: var(--links);
+    display: flex;
+    align-items: center;
+    width: 200px;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 10px;
+}
+
+.card a {
+    margin-left: 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.card img {
+    margin-right: 1rem;
+    border-radius: 10px;
+}
+
+.card:hover{
+    background-color: rgb(102, 102, 102);
+}
+
+@media only screen and (max-width: 800px){
+    .container {
+        width: 65vw;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-cards {
+        flex-direction: column;
+    }
+
+    .profile-info {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .card {
+        margin-top: 0;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+    .container {
+        width: 65vw;
+        height: fit-content;
+    }
+
+    .container-cards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        margin-top: 0;
+    }
+}
+
+
