@@ -4,7 +4,7 @@ My Own 'LinkTree'
 
 <h3 align="center">  
   <a href="#information_source-about">About</a> | 
-   <a href="#page_facing_up-flexbog">My Own LinkTree</a> |
+   <a href="#page_facing_up-my-own-linktree">My Own LinkTree</a> |
   <a href="#desktop_computer-technologies">Technologies</a> |
 </h3>
 
